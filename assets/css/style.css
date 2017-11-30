@@ -296,11 +296,35 @@ a:hover {
         bottom: -600px;
     }
 
+    .footer-2 {
+        position: absolute;
+        bottom: -100px;
+    }
+
+    .footer-3 {
+        position: absolute;
+        bottom: -175px;
+    }
+
     .connect-box {
         width: 520px;
         position: absolute;
         left: -3px;
         top: 815px;
+        padding: 20px 31px 20px 30px;
+    }
+
+    .connect-box-2 {width: 520px;
+        position: absolute;
+        left: -3px;
+        top: 275px;
+        padding: 20px 31px 20px 30px;
+    }
+
+    .connect-box-3 {
+        position: absolute;
+        left: -3px;
+        top: 350px;
         padding: 20px 31px 20px 30px;
     }
 
