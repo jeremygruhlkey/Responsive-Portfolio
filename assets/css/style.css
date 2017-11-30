@@ -92,6 +92,7 @@ a:hover {
     
 } 
 
+
 .content {
     position: relative;
     left: 1px;
@@ -255,9 +256,73 @@ a:hover {
         color: purple;
     }
 
-    .name {
+    .header {
         width: 100%;
+        height: 115px;
     }
 
+    .name {
+        width: 100%;
+        margin: 0px;
+        padding: 23px 0px 23px 0px;
+    }
 
+    .nav {
+        height: 35px;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        left: -517px;
+    }
+
+    .link2 {
+        border: none;
+    }
+
+    .about {
+        width: 520px;
+        left: 12px;
+        margin: 15px;
+        text-align: justify; 
+    }
+
+    .pic {
+        width: 465px;
+        margin-left: 28px;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -600px;
+    }
+
+    .connect-box {
+        width: 520px;
+        position: absolute;
+        left: -3px;
+        top: 815px;
+        padding: 20px 31px 20px 30px;
+    }
+
+    .icon {
+        margin: 15px 30px 15px 23px;
+        width: 120px;
+    }
+
+    .contact-form {
+        left: 12px;
+        margin: 15px;
+        width: 520px;
+    }
+
+    .gallery {
+        left: 12px;
+        margin: 15px;
+        width: 520px;
+    }
+
+    .thumb {
+        margin: 10px;
+    }
 }
+
