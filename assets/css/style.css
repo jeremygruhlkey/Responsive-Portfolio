@@ -245,9 +245,56 @@ a:hover {
         color: green;
     }
 
+    .name {
+        width: 30%;
+        margin-left: 25px;
+        padding: 23px 0px 23px 0px;
+    }
 
+    
+    .link1 {
+        left: 680px;
+    }
 
-}
+    .link2 {
+        left: 580px;
+    }
+
+    .link3 {
+        left: 525px;
+    }
+
+    .about {
+        width: 650px;
+        left: 12px;
+        margin: 15px;
+        text-align: justify; 
+    }
+
+    .pic {
+        width: 225px;
+        margin-left: 28px;
+    }
+
+    .connect-box {
+        width: 650px;
+        position: absolute;
+        left: -3px;
+        top: 395px;
+        padding: 20px 31px 20px 30px;
+    }
+
+    .with-me {
+        text-align: left;
+    }
+
+    .icon {
+        float: left;
+    }
+    .footer {
+        position: absolute;
+        bottom: -150px;
+    }
 
 @media only screen and (max-width: 640px) {
 
