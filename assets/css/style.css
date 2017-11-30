@@ -3,10 +3,13 @@ body {
     background-color: rgb(226, 209, 209);
 }
 
+.wrapper {
+    width:1024px;
+}
 .header {
     background-color: #ffffff;
     height: 70px;
-    width: 1300px; 
+    width: 100%; 
     position: relative;
 }
 
@@ -59,7 +62,7 @@ a:hover {
     color: #777777;
     position: absolute;
     top: 27px;
-    right: 360px;
+    left: 885px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -70,7 +73,7 @@ a:hover {
     color: #777777;
     position: absolute;
     top: 27px;
-    right: 425px;
+    left: 785px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px 15px 0px 15px;
     border-left: 1px;
@@ -84,7 +87,7 @@ a:hover {
     color: #777777;
     position: absolute;
     top: 27px;
-    right: 525px;
+    left: 730px;
     font-family: Arial, Helvetica, sans-serif;
     
 } 
@@ -223,4 +226,38 @@ a:hover {
     border-top: 10px;
     border-style: solid;
     border-color: #4aaaa5;
+}
+
+@media only screen and (max-width: 980px) {
+
+    p {
+        color: red;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+        
+    p {
+        color: green;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 640px) {
+
+
+    p {
+        color: purple;
+    }
+
+    .name {
+        width: 100%;
+    }
+
+
 }
