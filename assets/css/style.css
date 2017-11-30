@@ -1,0 +1,226 @@
+body {
+    background-image: url("../images/scratch.png");  
+    background-color: rgb(226, 209, 209);
+}
+
+.header {
+    background-color: #ffffff;
+    height: 70px;
+    width: 1300px; 
+    position: relative;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin: 10px 10px 20px 10px;
+}
+
+p {
+    color: #777777;
+    font-size: 17px;
+    line-height: 165%;
+    margin: 8px;
+}
+
+p:first-child::selection {
+    color: red;
+    background: yellow;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5; 
+    font-size: 24px;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    font-weight: bold;
+    width: 22%; 
+    position: absolute;
+    top: 0px;
+    margin: 0px 0px 0px 80px;
+    padding: 23px;
+}
+
+
+.link1 {
+    font-size: 15px;
+    color: #777777;
+    position: absolute;
+    top: 27px;
+    right: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #777777;
+    position: absolute;
+    top: 27px;
+    right: 425px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 15px 0px 15px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #777777;
+}
+
+.link3 {
+    font-size: 15px;
+    color: #777777;
+    position: absolute;
+    top: 27px;
+    right: 525px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+
+.content {
+    position: relative;
+    left: 1px;
+    width: 1055px;
+    background-color: yellow;
+}
+
+
+.about {
+    text-align: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    Position: absolute;
+    left: 50px;
+    width: 540px;
+    margin: 30px;
+    padding: 21px 30px 3px 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.about-me {
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.pic {
+    float: left;
+    margin: 15px 15px 5px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.thumb {
+    position: relative;
+    float: left;
+    margin: 15px;
+}
+
+.banner {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 40px;
+    padding-top: 17px;
+}
+.connect-box {
+    text-align: center;
+    font-weight: bold;
+    color: #777777;
+    background-color: #ffffff;
+    position: absolute;
+    right: 59px;
+    padding: 21px 20px 20px 15px;
+    margin: 30px 30px 30px 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.with-me {
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.contact-form {
+    text-align: wrap;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    position: absolute;
+    left: 51px;
+    width: 540px;
+    margin: 30px;
+    padding: 21px 30px 20px 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.gallery {
+    color: #777777;
+    background-color: #ffffff;
+    position: absolute;
+    left: 51px;
+    width: 540px;
+    margin: 30px;
+    padding: 21px 30px 20px 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.portfolio {
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+#submit-button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.row {
+    margin: 4px;
+}
+.icon {
+    float: right;
+    margin: 15px 7px 15px 7px;
+}
+.footer {
+    height: 55px;
+    text-align: center;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #666666;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    bottom: 0px;
+    padding: 18px; 
+    border-top: 10px;
+    border-style: solid;
+    border-color: #4aaaa5;
+}
