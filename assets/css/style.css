@@ -3,13 +3,13 @@ body {
     background-color: rgb(226, 209, 209);
 }
 
-.wrapper {
+/* .wrapper {
     width:1024px;
-}
+} */
 .header {
     background-color: #ffffff;
     height: 70px;
-    width: 100%; 
+    /* width: 100%;  */
     position: relative;
 }
 
@@ -49,7 +49,7 @@ a:hover {
     font-size: 24px;
     font-family: "Georgia", Times, 'Times New Roman', serif;
     font-weight: bold;
-    width: 22%; 
+    /* width: 22%;  */
     position: absolute;
     top: 0px;
     margin: 0px 0px 0px 80px;
@@ -96,7 +96,7 @@ a:hover {
 .content {
     position: relative;
     left: 1px;
-    width: 1055px;
+    /* width: 1055px; */
     background-color: yellow;
 }
 
@@ -147,12 +147,13 @@ a:hover {
     padding-top: 17px;
 }
 .connect-box {
+    width: 235px;
     text-align: center;
     font-weight: bold;
     color: #777777;
     background-color: #ffffff;
     position: absolute;
-    right: 59px;
+    left: 680px;
     padding: 21px 20px 20px 15px;
     margin: 30px 30px 30px 30px;
     border: 1px;
@@ -235,6 +236,32 @@ a:hover {
         color: red;
     }
 
+    .link1 {
+        left: 830px;
+    }
+
+    .link2 {
+        left: 730px;
+    }
+
+    .link3 {
+        left: 685px;
+    }
+    .about {
+        width: 480px;
+    }
+
+    .pic { 
+        width: 465px;
+    }
+
+    .connect-box {
+        left: 620px;
+    }
+    .footer {
+        position: absolute;
+        bottom: -365px;
+    }
 
 }
 
@@ -246,9 +273,9 @@ a:hover {
     }
 
     .name {
-        width: 30%;
+        /* width: 30%; */
         margin-left: 25px;
-        padding: 23px 0px 23px 0px;
+        /* padding: 23px 0px 23px 0px; */
     }
 
     
@@ -280,7 +307,22 @@ a:hover {
         width: 650px;
         position: absolute;
         left: -3px;
-        top: 395px;
+        top: 400px;
+        padding: 20px 31px 20px 30px;
+    }
+    .connect-box-2 {
+        width: 650px;
+        position: absolute;
+        left: -3px;
+        top: 285px;
+        padding: 20px 31px 20px 30px;
+    }
+
+    .connect-box-3 {
+        width: 650px;
+        position: absolute;
+        left: -3px;
+        top: 355px;
         padding: 20px 31px 20px 30px;
     }
 
@@ -291,9 +333,27 @@ a:hover {
     .icon {
         float: left;
     }
+
+    .gallery {
+        left: 12px;
+        margin: 15px;
+        width: 650px;
+    }
+
+    .contact-form {
+        left: 12px;
+        margin: 15px;
+        width: 650px;
+    }
+
     .footer {
         position: absolute;
         bottom: -150px;
+    }
+
+    .footer-2 {
+        position: absolute;
+        bottom: -75px;
     }
 
 @media only screen and (max-width: 640px) {
@@ -309,8 +369,8 @@ a:hover {
     }
 
     .name {
+        margin: 0;
         width: 100%;
-        margin: 0px;
         padding: 23px 0px 23px 0px;
     }
 
@@ -319,7 +379,7 @@ a:hover {
         background-color: white;
         position: absolute;
         top: 60px;
-        left: -517px;
+        left: -308px;
     }
 
     .link2 {
@@ -334,13 +394,13 @@ a:hover {
     }
 
     .pic {
-        width: 465px;
+        width: 465;
         margin-left: 28px;
     }
 
     .footer {
         position: absolute;
-        bottom: -600px;
+        bottom: -255px;
     }
 
     .footer-2 {
@@ -354,14 +414,16 @@ a:hover {
     }
 
     .connect-box {
+        /* width: 520px; */
         width: 520px;
         position: absolute;
         left: -3px;
-        top: 815px;
+        top: 460px;
         padding: 20px 31px 20px 30px;
     }
 
-    .connect-box-2 {width: 520px;
+    .connect-box-2 {
+        width: 520px;
         position: absolute;
         left: -3px;
         top: 275px;
@@ -369,6 +431,7 @@ a:hover {
     }
 
     .connect-box-3 {
+        width: 520px;
         position: absolute;
         left: -3px;
         top: 350px;
